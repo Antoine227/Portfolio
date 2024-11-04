@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antoine Chauvot">
+    <meta name="description" content="Developpeur web, je design et développe des sites et applications web innovantes et créatives !">
+    <meta name="keywords" content="web Developpeur, full stack, frent-end, back-end, portfolio, projets web, site web, appli, application, mobile">
+    <title>Antoine Chauvot | Developpeur web</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="shortcut icon" href="./Fichiers/Icon-protfolio.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>                      
+                <a href="#intro">
+                    <img src="./Fichiers/file-person.svg" alt="icon Dev">
+                    <span>Antoine Chauvot</span>
+                </a>
+                <div class="deroulant">
+                    <div class="menu-icon" id="menu-icon">
+                        <img src="./Fichiers/list.svg" alt="Menu nav">
+                    </div>                    
+                    <ul class="menu" id="menu">
+                        <li>
+                                <a class="page-scroll" href="#about">A PROPOS</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#projets">MES PROJETS</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#contact">CONTACT</a>
+                            </li>
+
+                        </ul>
+                    </div>                
+                </div>                                        
+        </nav>
+        <section id="intro">
+            <h1>
+                Hey ! Moi c'est Antoine
+            </h1>
+            <h2>
+                Developpeur web full stack
+            </h2>
+            <a href="#about" id="flecheBas">
+                <img src="./Fichiers/icons8-down-button-96.png" alt="scroll down">
+            </a>
+        </section>
+    </header>
+
+    <main>
+    <section class="sectionCard" id="about">
+        <h3>-A PROPOS-</h3>
+        <img id="moi" src="./Fichiers/Photo_profil24.jpg" alt="Photo de ma tête">
+        <div class="containeur">
+            <p id="resume">Je suis toujours à la recherche de projets intéressants et amusants, en collaboration avec d'autres gens passionnés. Mes domaines favoris sont le jeu, la musique et le design (pour n'en citer que trois).<br><br>
+                Après des études en comptabilité et gestion des entreprises ainsi qu'en psychologie du travail et ergonomie, je me suis reconverti dans le développement web avec la <span class="highlight">Wild Code School</span>.<br> 
+                Mon expérience de vendeur de vêtements techniques Aux Vieux Campeur m'a appris à m'adapter aux besoins spécifiques des clients.<br>
+                Faire de l'artisanat a développé mon côté minutieux et ma capacité à trouver des solutions aux problèmes techniques et organisationnels. </p>
+            <div class="cv">
+                <p>Telecharger mon CV</p>
+                <a href="./Fichiers/CV Antoine Chauvot2024.pdf" download>
+                    <img id="download" src="./Fichiers/download.svg" alt="Télécharger CV">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="sectionCard" id="projets">
+        <h3>-MES PROJETS-</h3>
+        <div class="projets-grid">
+        </div>
+    </section>
+    <section class="sectionCard" id="contact">
+        <h3>-CONTACT-</h3>
+        <p style="font-weight: bold;">N'hésitez pas, je suis sympa.</p>
+        <div class="reseaux">
+            <a href="https://www.linkedin.com/in/antoine-chauvot-0b519032b/" target="_blank" rel="noopener noreferrer">
+                <img id="linkedin" src="./Fichiers/linkedin.svg" alt="lien linkedin">
+            </a>
+            <a href="https://github.com/Antoine227" target="_blank" rel="noopener noreferrer">
+                <img id="github" src="./Fichiers/github.svg" alt="lien github">
+            </a>
+        </div>
+    </section>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
