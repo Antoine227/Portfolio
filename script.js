@@ -30,9 +30,9 @@ menuItems.forEach(item => {
 
 function displayProjects() {
   PROJETS.innerHTML = ''; // Vide le contenu existant
-  projet.forEach(projetItem => {
+  for (const projetItem of projet) {
     PROJETS.innerHTML += createProjet(projetItem);
-  });
+  }
 }
 
 displayProjects();
