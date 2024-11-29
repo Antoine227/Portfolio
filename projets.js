@@ -19,6 +19,13 @@ const projet = [
         description : "Jeu du pendu sur le thème de l'horreur.",
         techno : "HTML, CSS, React",
         lien : "https://pendu-horrifique.netlify.app/"
+    },
+    {
+        name : "Pokéflex",
+        miniature : "./Fichiers/miniaturePokeflex.png",
+        description : "Pokédex complet utilisant la PokéAPI",
+        techno : "HTML, CSS, React",
+        lien : "https://pokeflex-wild.netlify.app/"
     }
 ];
 
